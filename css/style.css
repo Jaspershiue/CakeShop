@@ -332,3 +332,15 @@ footer ul{
 #intro .container {
 	padding: 200px 0;
 }
+
+#carouselExample {
+  min-height: 300px;
+  background-color: #eee;
+}
+.carousel-item {
+  display: none;
+  transition: none;
+}
+.carousel-item.active {
+  display: block !important;
+}
